@@ -1,6 +1,6 @@
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import broadcast
-from pyspark.sql.functions import col, avg
+from pyspark.sql.functions import col, avg 
 
 sparksession = SparkSession.builder.appName("optimization").getOrCreate()
 
