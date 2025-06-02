@@ -4,7 +4,7 @@ from pyspark import StorageLevel
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
 from pyspark.sql import functions as F
-from pyspark.sql.functions import year, quarter
+from pyspark.sql.functions import year, quarter 
 
 sparksession = SparkSession.builder.appName("optimization").getOrCreate()
 
